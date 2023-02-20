@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    font-family: "Open Sans";
+}
+/* Common */
+.container {
+    max-width: 1230px;
+    margin:auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container-flex {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.item-flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.class-section {
+    width: 1230px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.active {
+    background: #ffe7ba !important;
+}
+/* Product menu */
+.content-container {
+
+}
+
+.product__container {
+    padding-top: 50px;
+}
+
+.product__container .product__list--header {
+    width: 100%;
+}
+
+.product__container .product__list--header .title {
+    font-size: 28px;
+    text-align: center;
+    width: 100%;
+}
+
+.product__list--header .fas {
+    color: #faa515;
+    font-size: 22px;
+}
+
+.product__container .product__list--type {
+    display: flex;
+    /* justify-content: space-around; */
+    /* margin: 0 6%; */
+    /* width: 100%; */
+    justify-content: center;
+}
+
+.product__container .product__list--type .product-menu {
+    padding: 45px 0;
+    width: 94px;
+    margin-right: 45px;
+    cursor: pointer;
+}
+
+.product__list--type .product-menu .product-menu--image {
+    text-align: center;    
+    background: #fff7e6;
+    padding: 10px 0;
+    border-radius: 50%;
+}
+.product__list--type .product-menu .product-menu--image img {
+    height: 70px;
+}
+.product__list--type .product-menu .product-menu--name {
+    font-size: 12px;
+    color: #b2b2b2;
+    text-align: center;
+}
+
+/* Drink  */
+
+.drink__menu {
+    /* display: flex; */
+    display: none;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.menu-special-show {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.drink__menu .drink-item {
+    background-color: #fff;
+    width: 175px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 20px 0px;
+    /* text-align:center; */
+    padding: 20px 0;
+    border-radius: 5px;
+}
+
+.drink__menu .drink-menu-link {
+    margin-bottom: 2%;
+}
+
+.drink-item-container {
+    padding: 0 10px;
+}
+
+.drink__menu .drink-item .drink-item__image {
+}
+
+.drink__menu .drink-item img {
+    width: 155px;
+    padding: 10px 0;
+    border-radius: 15%;
+}
+
+.drink__menu .drink-item .drink-name {
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.drink__menu .drink-item .drink-price {
+    display: flex;
+    width: 155px;
+    justify-content: space-between;
+}
+
+.drink__menu .drink-item .drink-price .price {
+    display: flex;
+    align-items: center;
+}
+
+.drink__menu .drink-item .drink-price .fas {
+    color: white;
+    background-color: rgb(250, 140, 22);
+    padding: 8px 9px;
+    border-radius: 50%;
+    font-size: 16;
+}
+.name{
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+

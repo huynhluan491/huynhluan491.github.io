@@ -1,0 +1,700 @@
+@media only screen and (min-width: 64em){
+    body {
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    .space-div {
+        padding-top: 180px;
+    }
+    .hide{
+        display: none;
+    }
+    .order-container {
+        background-color: #fff;
+    
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-bottom: 80px ;
+        margin-top: 80px;
+       
+        padding: 20px 0px;
+
+        box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
+        border-radius: 10px;
+
+        display: flex;
+        justify-content: space-around;
+        max-width: 900px;
+    }
+    
+    
+    .order-container .order-left-container {
+        width: 400px;
+    }
+    
+    
+    
+    .order-left-container .order__image img {
+        height: 400px;
+        border-radius: 10px;
+    }
+    
+    .order-left-container .order__img-list {
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .order-left-container .order__img-list img {
+        height: 80px;
+        padding: 0 3px;
+        border-radius: 10px;
+    }
+    
+    .order-left-container .order__content {
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
+    
+    .order-left-container .order__content .detail {
+        font-size: 16px;
+        color: rgb(102, 102, 102);
+        line-height: 1.7;
+        text-align: justify;
+        
+    }
+    
+    .order-container .order-right-container {
+        width: 400px;
+        padding: 0 20px;
+        margin-left: 10px;
+    }
+    
+    
+    
+    .order-right-container .order__header .drink-name .name {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 1;
+    }
+    
+    .order-right-container .order__header .drink-price {
+        display: flex;
+        margin-top: 15px;
+        justify-content: space-between;
+    }
+    
+    .order-right-container .order__header .drink-price .price {
+        margin-top: 10px;
+    }
+    
+    .order-right-container .order__header .drink-price .drink-quatity {
+        padding: 0 20px;
+        font-size: 22px;
+    }
+    
+    .order-right-container .order__header .minus-quatity {
+        color: white;
+        background-color: #e4e4e4;
+        padding: 6px 9px;
+        border-radius: 50%;
+        font-size: 16;
+    }
+    
+    .order-right-container .order__header .plus-quatity .fas {
+        color: white;
+        background-color: rgb(250, 140, 22);
+        padding: 8px 9px;
+        border-radius: 50%;
+        font-size: 16;
+    }
+    
+    .quatity-container {
+        display: flex;
+    }
+    
+    .order__note{
+        white-space: nowrap;
+        border: 1px;
+        margin-top: 20px;
+    }
+    .bottom{
+        margin-left:auto !important;
+        margin-right: auto !important;
+        max-width: 900px;
+        
+    }
+    .header_information{
+         background-color:  #e4e4e4;
+         padding: 8px 6px;
+    }
+    .information{
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 24px;
+        color: #666;
+        margin: 6px 16px;
+    }
+    .bottom_information{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 1rem;
+        line-height: 1.42;
+        padding: 12px 15px;
+    }
+    .drink-note {
+        display: flex;
+        margin-top: 30px;
+        width: 100%;
+        border: 1px solid #ededee;
+        border-radius: 5px 0 0 5px;
+    }
+    
+    .drink-note .drink-note-icon {
+        background-color: #edeaea;
+        padding: 8px;
+        border-radius: 5px 0 0 5px;
+    }
+    
+    
+    .drink-note .drink-note-icon .icon {
+        font-size: 27px;
+        color: #cac5c5;
+    }
+    
+    .drink-note .note-fill {
+    }
+    
+    .drink-note .note-fill input {
+        padding: 13px;
+        display: block;
+        border: none;
+        outline: none;
+        flex: 1;
+        width: 100%;
+        font-size: 16px;
+    }
+    
+    /* DRINK SIZE */
+    
+    .drink-size {
+        margin-top: 20px;
+        border: 1px solid #ededee;
+        border-radius: 0 0 15px 15px;
+    }
+    
+    .drink-size .choose-size {
+        background-color: hsla(0,0%,76.9%,0.3);
+        padding: 10px;
+    }
+    
+    .drink-size .choose-size .title {
+    
+    }
+    
+    .drink-size .size-type {
+        display: flex;
+        align-items: center;
+    }
+    
+    .drink-size .size-type input {
+        margin-left: 20px;
+    }
+    
+    .drink-size .size-type label {
+        padding: 10px 20px;
+    }
+    
+    /* ADD TO CART BTN */
+    
+    .add-to-cart-btn {
+        width: 100%;
+        margin-top: 15px;
+    }
+    
+    .add-to-cart-btn .btn {
+        cursor: pointer;
+        color: white;
+        padding: 15px 73px;
+        background: radial-gradient(75.9% 488.28% at 24.1% 100%,#e87800 0,#fa8c16 100%);
+        font-size: 16px;
+        outline: none;
+        border: none;
+        border-radius: 35px;
+    }
+}
+/*smartphone dưới 740px*/
+@media only screen and (max-width: 46.1875em){
+    body {
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    
+    
+    .order-container {
+        margin-left: auto !important;
+        margin-right: auto !important;
+          
+        justify-content: space-around; 
+    }
+    
+    
+    .order-container .order-left-container {
+        width: 100%;
+    }
+    .order-left-container .order__image img {
+        height: auto;
+        /* border-radius: 10px; */
+        width: 100%;
+    }
+    
+    .order-left-container .order__img-list {
+        text-align: center;
+        margin-top: 10px;
+        display: none;
+        
+    }
+    
+    .order-left-container .order__img-list img {
+        /* height: 80px; */
+        padding: 0 3px;
+        
+    }
+    
+    .order-left-container .order__content {
+        /* margin-top: 25px; */
+        
+    }
+    
+    .order-left-container .order__content .detail {
+        font-size: 16px;
+        color: rgb(102, 102, 102);
+        line-height: 1.7;
+        text-align: justify;
+        display: none;
+    }
+    
+    .order-container .order-right-container {  
+        /* padding: 0 20px; */
+    }
+    .drink-name{
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0,0.4);
+        padding: 16px;
+        
+    }
+ 
+    
+    .order-right-container .order__header .drink-name .name {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24px;
+        margin-left: 16px;
+
+    }
+    
+    .order-right-container .order__header .drink-price {
+        display: flex;
+        margin-top: 15px;
+        justify-content: space-between;
+        display: none;
+    }
+    
+    .order-right-container .order__header .drink-price .price {
+        margin-top: 10px;
+    }
+    
+    .order-right-container .order__header .drink-price .drink-quatity {
+        padding: 0 20px;
+        font-size: 22px;
+    }
+    
+    .order-right-container .order__header .minus-quatity {
+        color: white;
+        background-color: #e4e4e4;
+        padding: 6px 9px;
+        border-radius: 50%;
+        font-size: 16;
+    }
+    
+    .order-right-container .order__header .plus-quatity .fas {
+        color: white;
+        background-color: rgb(250, 140, 22);
+        padding: 8px 9px;
+        border-radius: 50%;
+        font-size: 16;
+    }
+    
+    .quatity-container {
+        display: flex;
+        max-width: 900px;
+    }
+    
+    .order__note{
+        white-space: nowrap;
+        border: 1px;
+        margin-top: 20px;
+        display: none;
+    }
+    .order-bottom{
+        margin-top: 16px; 
+    }
+    .header_information{
+         background-color:  #e4e4e4;
+         padding: 8px 6px;
+    }
+    .information{
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 24px;
+        color: #666;
+        margin: 6px 16px;
+    }
+    .bottom_information{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 1rem;
+        line-height: 1.42;
+        padding: 12px 15px;
+    }
+    .drink-note {
+        display: flex;
+        margin-top: 30px;
+        width: 100%;
+        border: 1px solid #ededee;
+        border-radius: 5px 0 0 5px;
+        display: none;
+    }
+    
+    .drink-note .drink-note-icon {
+        background-color: #edeaea;
+        padding: 8px;
+        border-radius: 5px 0 0 5px;
+        display: none;
+    }
+    
+    
+    .drink-note .drink-note-icon .icon {
+        font-size: 27px;
+        color: #cac5c5;
+        display: none;
+
+    }
+    
+    .drink-note .note-fill {
+    }
+    
+    .drink-note .note-fill input {
+        padding: 13px;
+        display: block;
+        border: none;
+        outline: none;
+        flex: 1;
+        width: 100%;
+        font-size: 16px;
+        display: none;
+
+    }
+    
+    /* DRINK SIZE */
+    
+    .drink-size {
+        margin-top: 20px;
+        border: 1px solid #ededee;
+        border-radius: 0 0 15px 15px;
+        display: none;
+
+    }
+    
+    .drink-size .choose-size {
+        background-color: hsla(0,0%,76.9%,0.3);
+        padding: 10px;
+        display: none;
+
+    }
+    
+    .drink-size .choose-size .title {
+    
+    }
+    
+    .drink-size .size-type {
+        display: flex;
+        align-items: center;
+        display: none;
+
+    }
+    
+    .drink-size .size-type input {
+        margin-left: 20px;
+        display: none;
+
+    }
+    
+    .drink-size .size-type label {
+        padding: 10px 20px;
+        display: none;
+
+    }
+    
+    /* ADD TO CART BTN */
+    
+    .add-to-cart-btn {
+        width: 100%;
+        margin-top: 15px;
+        display: none;
+
+    }
+    
+    .add-to-cart-btn .btn {
+        cursor: pointer;
+        color: white;
+        padding: 15px 73px;
+        background: radial-gradient(75.9% 488.28% at 24.1% 100%,#e87800 0,#fa8c16 100%);
+        font-size: 16px;
+        outline: none;
+        border: none;
+        border-radius: 35px;
+        display: none;
+    
+    }
+}
+/* tablet */
+@media only screen and (min-width: 46.25em) and (max-width:63.9375em){
+    body {
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    
+    
+    .order-container {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        
+        justify-content: space-around; 
+    }
+    
+    
+    .order-container .order-left-container {
+        width: 100%;
+        padding: 0 20px;
+    }
+    .order-left-container .order__image img {
+        height: auto;
+        /* border-radius: 10px; */
+        width: 100%;
+    }
+    
+    .order-left-container .order__img-list {
+        text-align: center;
+        margin-top: 10px;
+        display: none;
+        
+    }
+    
+    .order-left-container .order__img-list img {
+        /* height: 80px; */
+        padding: 0 3px;
+        
+    }
+    
+    .order-left-container .order__content {
+        /* margin-top: 25px; */
+        
+    }
+    
+    .order-left-container .order__content .detail {
+        font-size: 16px;
+        color: rgb(102, 102, 102);
+        line-height: 1.7;
+        text-align: justify;
+        display: none;
+    }
+    
+    .order-container .order-right-container {  
+        /* padding: 0 20px; */
+    }
+    .drink-name{
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0,0.4);
+        padding: 16px;
+    }
+    .order-right-container .order__header .drink-name .name {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24px;
+        margin-left: 16px;
+        
+    }
+    
+    .order-right-container .order__header .drink-price {
+        display: flex;
+        margin-top: 15px;
+        justify-content: space-between;
+        display: none;
+    }
+    
+    .order-right-container .order__header .drink-price .price {
+        margin-top: 10px;
+    }
+    
+    .order-right-container .order__header .drink-price .drink-quatity {
+        padding: 0 20px;
+        font-size: 22px;
+    }
+    
+    .order-right-container .order__header .minus-quatity {
+        color: white;
+        background-color: #e4e4e4;
+        padding: 6px 9px;
+        border-radius: 50%;
+        font-size: 16;
+    }
+    
+    .order-right-container .order__header .plus-quatity .fas {
+        color: white;
+        background-color: rgb(250, 140, 22);
+        padding: 8px 9px;
+        border-radius: 50%;
+        font-size: 16;
+    }
+    
+    .quatity-container {
+        display: flex;
+    }
+    
+    .order__note{
+        white-space: nowrap;
+        border: 1px;
+        margin-top: 20px;
+        display: none;
+    }
+    .order-bottom{
+        margin-top: 32px;  
+    }
+    .header_information{
+         background-color:  #e4e4e4;
+         padding: 8px 6px;
+    }
+    .information{
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 24px;
+        color: #666;
+        margin: 6px 16px;
+    }
+    .bottom_information{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 1rem;
+        line-height: 1.42;
+        padding: 12px 15px;
+    }
+    .drink-note {
+        display: flex;
+        margin-top: 30px;
+        width: 100%;
+        border: 1px solid #ededee;
+        border-radius: 5px 0 0 5px;
+        display: none;
+    }
+    
+    .drink-note .drink-note-icon {
+        background-color: #edeaea;
+        padding: 8px;
+        border-radius: 5px 0 0 5px;
+        display: none;
+    }
+    
+    
+    .drink-note .drink-note-icon .icon {
+        font-size: 27px;
+        color: #cac5c5;
+        display: none;
+
+    }
+    
+    .drink-note .note-fill {
+    }
+    
+    .drink-note .note-fill input {
+        padding: 13px;
+        display: block;
+        border: none;
+        outline: none;
+        flex: 1;
+        width: 100%;
+        font-size: 16px;
+        display: none;
+
+    }
+    
+    /* DRINK SIZE */
+    
+    .drink-size {
+        margin-top: 20px;
+        border: 1px solid #ededee;
+        border-radius: 0 0 15px 15px;
+        display: none;
+
+    }
+    
+    .drink-size .choose-size {
+        background-color: hsla(0,0%,76.9%,0.3);
+        padding: 10px;
+        display: none;
+
+    }
+    
+    .drink-size .choose-size .title {
+    
+    }
+    
+    .drink-size .size-type {
+        display: flex;
+        align-items: center;
+        display: none;
+
+    }
+    
+    .drink-size .size-type input {
+        margin-left: 20px;
+        display: none;
+
+    }
+    
+    .drink-size .size-type label {
+        padding: 10px 20px;
+        display: none;
+
+    }
+    
+    /* ADD TO CART BTN */
+    
+    .add-to-cart-btn {
+        width: 100%;
+        margin-top: 15px;
+        display: none;
+
+    }
+    
+    .add-to-cart-btn .btn {
+        cursor: pointer;
+        color: white;
+        padding: 15px 73px;
+        background: radial-gradient(75.9% 488.28% at 24.1% 100%,#e87800 0,#fa8c16 100%);
+        font-size: 16px;
+        outline: none;
+        border: none;
+        border-radius: 35px;
+        display: none;
+    
+    }
+}

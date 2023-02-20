@@ -1,0 +1,280 @@
+/*pc từ 1240px trở lên */
+@media only screen and (min-width: 64em){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+    #layout{
+        background: linear-gradient(
+            180deg, #ffb438 0, #fd8117 100%);
+            width: 100%;
+            display: flex;
+            justify-content: center;
+    }
+    body{
+        width: 100%;
+        /* height: 800px; */        
+        text-align: center;
+    }
+    #main_form{
+        width: 65%;
+        text-align: center;
+        
+        margin-top: 144px;
+        margin-bottom: 144px;
+        padding: 0 15px;
+    }
+    
+    #container_table{
+        width: 100%;
+ 
+        padding: 50px 60px;
+
+        background-color: #fff;
+
+        border-radius: 5px;
+        
+    }
+    #container_table h4{
+        margin-bottom: 40px;   
+        font-size: 1.5rem;
+        line-height: 1.75rem;
+        font-weight: 700;        
+    }
+    #container_table p{
+        margin-bottom: 40px;
+        font-size: 20px;
+    }
+   
+    .form-selection{
+        margin-bottom: 40px;
+        margin-top: 8px;
+    }
+
+    .form{
+        text-align: left;
+        padding: 0 15px;
+    }
+    
+    .selection-fill_in{
+        width: 100%;
+        
+        height: calc(1.5em + 1.5rem + 2px);
+        
+        padding: 2px 8px;
+
+        border-radius: 5px;
+        border: 1px solid #dfdfde;
+    }
+    .form-selection:hover{
+        border: none;
+
+
+        
+    }
+   
+   
+    .button{
+        padding: 20px 50px;
+
+        background-color: #f15401;
+        color: #fff;
+
+        border-radius: 5px;
+        border: 0;
+        
+        font-size: 20px;
+    }
+    .form_button{
+        text-align: center;
+    }
+    .default{
+        margin-top: 4px;
+        margin-bottom: 32px;
+
+        color: orangered;
+    }
+}
+/* tablet */
+@media only screen and (min-width: 46.25em) and (max-width:63.9375em){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+    #layout{
+        background: linear-gradient(
+            180deg, #ffb438 0, #fd8117 100%);
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            
+    }
+    body{
+        width: 100%;
+        /* height: 800px;  */
+        /* display: flex; */
+        justify-content: center;
+        /* background: linear-gradient( */
+            /* 180deg, #ffb438 0, #fd8117 100%); */
+            
+       
+    }
+    #main_form{
+        width: 65%;
+        text-align: center;
+        padding: 40px 0;
+       
+    }
+    #container_table{
+        width: 100%;
+        text-align: center;
+        padding: 30px 16px;
+        background-color: #fff;
+        border-radius: 5px;
+    }
+    #container_table h4{
+        margin-bottom: 32px;   
+        font-size: 17px;
+        line-height: 1.75rem;
+        font-weight: 700;        
+    }
+    #container_table p{
+        margin-bottom: 32px;
+        font-size: 15px;
+    }
+   
+    .form-selection{
+        margin-bottom: 32px;
+        margin-top: 8px;
+    }
+
+    .form{
+        text-align: left;
+        padding: 0 15px;
+    }
+    
+    .selection-fill_in{
+        width: 100%;
+        
+        height: calc(1.5em + 1.5rem + 2px);
+        
+        padding: 2px 8px;
+
+        border-radius: 5px;
+        border: 1px solid #dfdfde;
+    }
+     input[type="text"]:focus{
+        border: 2px solid orange;
+        
+    }
+   
+   
+    .button{
+        padding: 15px 45px;
+
+        background-color: #f15401;
+        color: #fff;
+
+        border-radius: 5px;
+        border: 0;
+        
+        font-size: 20px;
+    }
+    .form_button{
+        text-align: center;
+    }
+    .default{
+        margin-top: 4px;
+        margin-bottom: 32px;
+
+        color: orangered;
+    }
+}
+/*smartphone dưới 740px*/
+@media only screen and (max-width: 46.1875em){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+    #layout{
+        background: linear-gradient(
+            180deg, #ffb438 0, #fd8117 100%);
+            width: 100%;
+
+    }
+    body{
+        width: 100%;
+        
+        text-align: center;
+        
+    }
+    #main_form{
+        text-align: center;
+        padding: 40px 16px;
+    }
+    #container_table{
+        text-align: center;        
+        padding: 30px 16px;
+        background-color: #fff;
+        border-radius: 3px;
+        margin-top: 50px;
+    }
+
+
+    .form{
+        text-align: left;
+        
+    }
+    #container_table h4{
+        font-weight: 700;
+        font-size: 15px;
+        margin-bottom: 32px;
+    }
+    #container_table p{
+        margin-bottom: 32px;
+        font-size: 13px;
+    }
+    .selection-fill_in{
+        width: 100%;
+        
+        height: calc(1.5em + 1.5rem + 2px);
+        
+        padding: 2px 8px;
+
+        border-radius: 5px;
+        border: 1px solid #dfdfde;
+    }
+    .form-selection{
+        margin-bottom: 32px;
+        margin-top: 8px;
+    }
+    .button{
+        padding: 15px 45px;
+
+        background-color: #f15401;
+        color: #fff;
+
+        border-radius: 5px;
+        border: 0;
+        
+        font-size: 15px;
+    }
+    .form_button{
+        text-align: center;
+    }
+    .default{
+        margin-top: 4px;
+        margin-bottom: 32px;
+
+        color: orangered;
+    }
+    .form__text{
+        font-size: 15px;
+    }
+}

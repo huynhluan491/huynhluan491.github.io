@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="block.css">
+    <!-- <link rel="stylesheet" href="../assets/css/full.css">
+    <link rel="stylesheet" href="../assets/css/common.css"> -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="crossorigin="anonymous"/>
+</head>
+<body>
+    <!-- Header -->
+    <header class="coffee-header">
+        <div class="coffee-header header--inside">
+            <div class="header-logo">
+                <!-- Link khúc này -->
+                <a href="../../landingpage2.html">
+                    <img src="https://hr.thecoffeehouse.com/img/logo.bbe8ad9a.svg" alt >
+                </a>
+            </div>
+            <nav class="header-nav">
+                <div class="coffee-header-nav">
+                    <!-- Link khúc này -->
+                    <a class="coffee-header-a" href="../../landingpage2.html">Về The Coffee House</a></li>
+                    <a class="coffee-header-a" href="#">Khối cửa hàng</a></li>
+                    <a class="coffee-header-a" href="./blockoffice.html">Khối Văn Phòng</a></li>
+                </div>
+                <div class="coffee-header-collapse">
+                    <div class="coffee-header-collapse-button">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                    <div class="coffee-header-text-collapse">
+                        <a class="nav-link" href="../../landingpage2.html">Về The Coffee House</a>
+                        <a class="nav-link" href="#">Khối cửa hàng</a>
+                        <a class="nav-link" href="./blockoffice.html">Khối văn phòng</a>
+                        <div style="border: 1px solid #dfdfde; margin-left: 10px;"></div>
+                        <a class="nav-link" href="../../TCKQUT/form.html">Tra cứu kết quả</a>
+                        <button class="coffee-header-button">
+                            <a href="../../careers.html">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADFSURBVHgBrZMNEcIwDIVTDgFzwBwwCcNBJeAAJCABB5uT1gE4GCgAByWB17te6c92t+8ul13avKxpqijAOdew69h6hKxSytIcOLlne7l/Jra2lqyxWQQubB0Er0G8LQlMuUoQEkyt+rFQYMSeXby2oV/ThDvlsfCHlMCb6jTwj5SAr6zz+bTPCXzhs93Q6S6xdsL5B8qBa/MzMEhDYSaYhzOVkCuMEjwGs1H+i0hIw5ogPs4WKYivL7KlhfDrlObK55PW4AOfKwrD2xkjzwAAAABJRU5ErkJggg==" alt>
+                                Tìm việc
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </nav>
+            <div class="header-nav--search">
+                <!-- Link khúc này -->
+                <a class="search-text" href="../../TCKQUT/form.html">Tra cứu kết quả</a>
+                <button class="header-nav--search--orange">
+                    <!-- Link khúc này -->
+                    <a href="../../careers.html">
+                        <img class="header-nav-img--search" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADFSURBVHgBrZMNEcIwDIVTDgFzwBwwCcNBJeAAJCABB5uT1gE4GCgAByWB17te6c92t+8ul13avKxpqijAOdew69h6hKxSytIcOLlne7l/Jra2lqyxWQQubB0Er0G8LQlMuUoQEkyt+rFQYMSeXby2oV/ThDvlsfCHlMCb6jTwj5SAr6zz+bTPCXzhs93Q6S6xdsL5B8qBa/MzMEhDYSaYhzOVkCuMEjwGs1H+i0hIw5ogPs4WKYivL7KlhfDrlObK55PW4AOfKwrD2xkjzwAAAABJRU5ErkJggg==" alt>
+                        Tìm việc
+                    </a>
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- Main -->
+    <div>
+        <main>
+            <div class="main--orange"></div>
+            <div class="main-subtance">
+                <div class="container">
+                    <!-- Search -->
+                    <div class="container__job">
+                        <h3 class="container__job--tittle">Tìm vị trí phù hợp với bạn</h3>
+                        <div>
+                            <div class="row">
+                                <div class="space"></div>
+                                <div class="row--search">
+                                    <input type="text" class="form" placeholder="Tìm kiếm theo tên công việc">
+                                    <div class="form--icon">
+                                        <span>
+                                            <i class="fas fa-search"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="space"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Barista -->
+                    <div class="container__kind">
+                        <div class="container__kind--done">
+                            <div class="container__kind--into">
+                                <div class="container__kind--into--orange">
+                                    <div class="container__kind--into--orange--left">
+                                        <a href="../xem chi tiết/barista.html">
+                                            <button class="container__kind__button--into--orange--left" style="margin-left: -1px;">Barista</button>
+                                        </a>
+                                    </div>
+                                    <div class="container__kind--into--orange--right">
+                                        <a href="../xem chi tiết/tiepdon.html">
+                                            <button class="container__kind__button--into--orange--right">
+                                                Tiếp đón khách hàng
+                                                <br>
+                                                <span class="container__kind__button--span">(Bảo vệ nội bộ)</span>
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Body -->
+                    <div class="container__body">
+                        <!-- Khối và tỉnh thành -->
+                        <form class="container__body--form">
+                            <div class="space--body"></div>
+                            <div class="container__body--form--done">
+                                <div class="container__body--form--done--inside">
+                                    <div class="form--inside">
+                                        <button type="button" class="button__form--inside">Khối
+                                            <span>
+                                                <i class="fas fa-sort-down"></i>
+                                            </span>
+                                        </button>
+                                        <ul class="button__text">
+                                            <li class="button__text--cropdown">Tất cả</li>
+                                            <li class="button__text--cropdown">Khối cửa hàng</li>
+                                            <li class="button__text--cropdown">Khối văn phòng</li>
+                                        </ul>
+                                    </div>
+                                    <div class="form--inside">
+                                        <button type="button" class="button__form--inside">Tỉnh Thành
+                                            <span>
+                                                <i class="fas fa-sort-down"></i>
+                                            </span>
+                                        </button>
+                                        <ul class="button__text" style="overflow-y: scroll;">
+                                            <li class="button__text--cropdown">Thành phố Hà Nội</li>
+                                                <li class="button__text--cropdown">Tỉnh Bắc Ninh</li>
+                                                <li class="button__text--cropdown">Thành phố Hải Phòng</li>
+                                                <li class="button__text--cropdown">Tỉnh Hưng Yên</li>
+                                                <li class="button__text--cropdown">Tỉnh Thanh Hóa</li>
+                                                <li class="button__text--cropdown">Tỉnh Nghệ An</li>
+                                                <li class="button__text--cropdown">Tỉnh Hà Tĩnh</li>
+                                                <li class="button__text--cropdown">Tỉnh Thừa Thiên Huế</li>
+                                                <li class="button__text--cropdown">Thành phố Đà Nẵng</li>
+                                                <li class="button__text--cropdown">Tỉnh Khánh Hòa</li>
+                                                <li class="button__text--cropdown">Tỉnh Đắk Lắk</li>
+                                                <li class="button__text--cropdown">Tỉnh Tây Ninh</li>
+                                                <li class="button__text--cropdown">Tỉnh Bình Dương</li>
+                                                <li class="button__text--cropdown">Tỉnh Đồng Nai</li>
+                                                <li class="button__text--cropdown">Tỉnh Bà Rịa - Vũng Tàu</li>
+                                                <li class="button__text--cropdown">Thành phố Hồ Chí Minh</li>
+                                                <li class="button__text--cropdown">Tỉnh Tiền Giang</li>
+                                                <li class="button__text--cropdown">Tỉnh Kiên Giang</li>
+                                                <li class="button__text--cropdown">Thành phố Cần Thơ</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="space--body"></div>
+                        </form>
+                        <div class=""></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <!-- Slider -->       
+<div class="slideshow-container">
+    <!-- Page 1 -->
+    <div class="mySlides fade">
+      <!-- Quản lý cửa hàng -->
+      <div class="coffeecareers__app__body__container--line" data-index="0">
+        <div>
+            <div style="color: #333;">
+                <div>
+                    <div class="coffeecareers__app__body__container--line--inside--done">
+                        <!-- Link khuc nay -->
+                        <a style="text-decoration: none;" href="./xem chi tiết/inside.html">
+                            <h5>Quản lý cửa hàng</h5>
+                        </a>
+                        <button class="coffeecareers__app__body__container__icon--line--inside" data-toggle="collapse" href="#inside">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="coffeecareers__app__body__container__first__block--line--inside">
+                    <div class="city">
+                        <div class="city--inside">
+                            <p class="city--inside--done">
+                                <span class="icon--local">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </span>
+                                <div class="city__name">Tỉnh Tây Ninh
+                                    + 1 tỉnh khác</div>
+                            </p>
+                            <span class="city__icon--cropdown">
+                                <i class="fas fa-sort-down"></i>
+                            </span>
+                        </div>
+                        <ul class="city--inside--dropdown">
+                            <li class="dropdown--text">Tỉnh Tây Ninh</li>
+                            <li class="dropdown--text">Tỉnh Bà Rịa- Vũng Tàu</li>
+                        </ul>
+                    </div>
+                    <p class="city--inside--person">
+                        <span class="person">
+                            <i class="fas fa-user-friends"></i>
+                            <div style="margin-left: 1%;"></div>
+                            <p class="block-style" style="margin-top: 3px;">Khối cửa hàng</p>
+                        </span>
+                    </p>
+                </div>
+                <div id="inside" class="coffeecareers__app__body__container__second__block--line--inside collapse">
+                    <div class="row">
+                        <div class="row__column--top">
+                            <div class="row__column--top--text">
+                                <p>Mức lương</p>
+                                <h6>Thoả thuận</h6>
+                            </div>
+                        </div>
+                        <div class="row__column--top">
+                            <div class="row__column--top--text">
+                                <p>Hình thức</p>
+                                <h6>Làm theo ca</h6>
+                            </div>
+                        </div>
+                        <div class="row__column--top">
+                            <div class="row__column--top--text">
+                                <div class="row__column--top--text">
+                                    <p>Hạn nộp hồ sơ</p>
+                                    <h6>31/12/2021</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row__column--bottom">
+                            <div class="row__column--top--text">
+                                <div class="row__column--top--text">
+                                    <p>Phòng ban</p>
+                                    <h6>Store Operations</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row__button">
+                        <!--thêm action vào khúc này-->
+                        <form>
+                            <a href="./xem chi tiết/inside.html">
+                                <button class="row__button--inside--fade"> Xem chi tiết </button>
+                            </a>
+                        </form>
+                        <form>
+                            <button class="row__button--inside"> Ứng tuyển </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- Giám sát ca -->
+            <div style="color: #333; margin-top: 30px;">
+                <div>
+                    <div class="coffeecareers__app__body__container--line--inside--done">
+                        <!-- Link khuc nay -->
+                        <a style="text-decoration: none;" href="./xem chi tiết/inside1(2).html">
+                            <h5>Giám sát ca</h5>
+                        </a>
+                        <button class="coffeecareers__app__body__container__icon--line--inside" data-toggle="collapse" href="#inside-First">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="coffeecareers__app__body__container__first__block--line--inside">
+                    <div class="city">
+                        <div class="city--inside">
+                            <p class="city--inside--done">
+                                <span class="icon--local">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </span>
+                                <div class="city__name">Tỉnh Tây Ninh
+                                    + 1 tỉnh khác</div>
+                            </p>
+                            <span class="city__icon--cropdown">
+                                <i class="fas fa-sort-down"></i>
+                            </span>
+                        </div>
+                        <ul class="city--inside--dropdown">
+                            <li class="dropdown--text">Tỉnh Tây Ninh</li>
+                            <li class="dropdown--text">Tỉnh Bà Rịa- Vũng Tàu</li>
+                        </ul>
+                    </div>
+                    <p class="city--inside--person">
+                        <span class="person">
+                            <i class="fas fa-user-friends"></i>
+                            <div style="margin-left: 1%;"></div>
+                            <p class="block-style" style="margin-top: 3px;">Khối cửa hàng</p>
+                        </span>
+                    </p>
+                </div>
+                <div id="inside-First" class="coffeecareers__app__body__container__second__block--line--inside collapse">
+                    <div class="row">
+                        <div class="row__column--top">
+                            <div class="row__column--top--text">
+                                <p>Mức lương</p>
+                                <h6>CẠNH TRANH</h6>
+                            </div>
+                        </div>
+                        <div class="row__column--top">
+                            <div class="row__column--top--text">
+                                <p>Hình thức</p>
+                                <h6>Làm theo giờ hành chính</h6>
+                            </div>
+                        </div>
+                        <div class="row__column--top">
+                            <div class="row__column--top--text">
+                                <div class="row__column--top--text">
+                                    <p>Hạn nộp hồ sơ</p>
+                                    <h6>31/12/2021</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row__column--bottom">
+                            <div class="row__column--top--text">
+                                <div class="row__column--top--text">
+                                    <p>Phòng ban</p>
+                                    <h6>Ecommerce</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row__button">
+                        <!--thêm action vào khúc này-->
+                        <form>
+                            <a href="./xem chi tiết/inside1(2).html">
+                                <button class="row__button--inside--fade"> Xem chi tiết </button>
+                            </a>
+                        </form>
+                        <form>
+                            <button class="row__button--inside"> Ứng tuyển </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- Tiếp đón khách hàng (bảo vệ nội bộ) -->
+            <div style="color: #333; margin-top: 30px;">
+                <div>
+                    <div class="coffeecareers__app__body__container--line--inside--done">
+                        <!-- Link khuc nay -->
+                        <a style="text-decoration: none;" href="./xem chi tiết/inside1(3).html">
+                            <h5>Tiếp đón khách hàng (bảo vệ nội bộ)</h5>
+                        </a>
+                        <button class="coffeecareers__app__body__container__icon--line--inside" data-toggle="collapse" href="#inside-Second">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="coffeecareers__app__body__container__first__block--line--inside">
+                    <div class="city">
+                        <div class="city--inside">
+                            <p class="city--inside--done">
+                                <span class="icon--local">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </span>
+                                <div class="city__name">
+                                    Thành phố Hà Nội
+                                    + 2 tỉnh khác</div>
+                            </p>
+                            <span class="city__icon--cropdown">
+                                <i class="fas fa-sort-down"></i>
+                            </span>
+                        </div>
+                        <ul class="city--inside--dropdown">
+                            <li class="dropdown--text">Thành phố Hồ Chí Minh</li>
+                            <li class="dropdown--text">Thủ Đô Hà Nội</li>
+                            <li class="dropdown--text">Thành phố Đà Nẵng</li>
+                        </ul>
+                    </div>
+                    <p class="city--inside--person">
+                        <span class="person">
+                            <i class="fas fa-user-friends"></i>
+                            <div style="margin-left: 1%;"></div>
+                            <p class="block-style" style="margin-top: 3px;">Khối cửa hàng</p>
+                        </span>
+                    </p>
+                </div>
+                <div id="inside-Second" class="coffeecareers__app__body__container__second__block--line--inside collapse">
+                    <div class="row">
+                        <div class="row__column--top">
+                            <div class="row__column--top--text">
+                                <p>Mức lương</p>
+                                <h6>CẠNH TRANH</h6>
+                            </div>
+                        </div>
+                        <div class="row__column--top">
+                            <div class="row__column--top--text">
+                                <p>Hình thức</p>
+                                <h6>Làm theo giờ hành chính</h6>
+                            </div>
+                        </div>
+                        <div class="row__column--top">
+                            <div class="row__column--top--text">
+                                <div class="row__column--top--text">
+                                    <p>Hạn nộp hồ sơ</p>
+                                    <h6>18/12/2021</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row__column--bottom">
+                            <div class="row__column--top--text">
+                                <div class="row__column--top--text">
+                                    <p>Phòng ban</p>
+                                    <h6>Product Marketing</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row__button">
+                        <!--thêm action vào khúc này-->
+                        <form>
+                            <a href="./xem chi tiết/inside1(3).html">
+                                <button class="row__button--inside--fade"> Xem chi tiết </button>
+                            </a>
+                        </form>
+                        <form>
+                            <button class="row__button--inside"> Ứng tuyển </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-------------->
+        </div>
+    </div>
+    </div>
+    <!-- Page 2 -->
+    <div class="mySlides fade">
+        <div class="coffeecareers__app__body__container--line--second-slide">
+            <div>
+                <!-- SENIOR DIGITAL MARKETING EXECUTIVE -->
+                <div style="color: #333;">
+                    <div>
+                        <div class="coffeecareers__app__body__container--line--inside--done">
+                            <!-- Link khuc nay -->
+                            <a style="text-decoration: none;" href="../xem chi tiết/done6.html">
+                                <h5>SENIOR DIGITAL MARKETING EXECUTIVE</h5>
+                            </a>
+                            <button class="coffeecareers__app__body__container__icon--line--inside" data-toggle="collapse" href="#inside-Sixth">
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="coffeecareers__app__body__container__first__block--line--inside">
+                        <div class="city">
+                            <div class="city--inside">
+                                <p class="city--inside--done">
+                                    <span class="icon--local">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </span>
+                                    <div class="city__name">Thành phố Hồ Chí Minh</div>
+                                </p>
+                                <span class="city__icon--cropdown">
+                                    <i class="fas fa-sort-down"></i>
+                                </span>
+                            </div>
+                            <ul class="city--inside--dropdown">
+                                <li class="dropdown--text">Thành phố Hồ Chí Minh</li>
+                            </ul>
+                        </div>
+                        <p class="city--inside--person">
+                            <span class="person">
+                                <i class="fas fa-user-friends"></i>
+                                <div style="margin-left: 1%;"></div>
+                                <p class="block-style" style="margin-top: 3px;">Khối văn phòng</p>
+                            </span>
+                        </p>
+                    </div>
+                    <div id="inside-Sixth" class="coffeecareers__app__body__container__second__block--line--inside collapse">
+                        <div class="row">
+                            <div class="row__column--top">
+                                <div class="row__column--top--text">
+                                    <p>Mức lương</p>
+                                    <h6>Thỏa thuận</h6>
+                                </div>
+                            </div>
+                            <div class="row__column--top">
+                                <div class="row__column--top--text">
+                                    <p>Hình thức</p>
+                                    <h6>Làm theo giờ hành chính</h6>
+                                </div>
+                            </div>
+                            <div class="row__column--top">
+                                <div class="row__column--top--text">
+                                    <div class="row__column--top--text">
+                                        <p>Hạn nộp hồ sơ</p>
+                                        <h6>27/10/2021</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row__column--bottom">
+                                <div class="row__column--top--text">
+                                    <div class="row__column--top--text">
+                                        <p>Phòng ban</p>
+                                        <h6>Fixed Assets</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row__button">
+                            <!--thêm action vào khúc này-->
+                            <form>
+                                <a href="./xem chi tiết/done6.html">
+                                    <button class="row__button--inside--fade"> Xem chi tiết </button>
+                                </a>
+                            </form>
+                            <form>
+                                <button class="row__button--inside"> Ứng tuyển </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- IT SUPPORT EXECUTIVE -->
+                <div style="color: #333; margin-top: 30px;">
+                    <div>
+                        <div class="coffeecareers__app__body__container--line--inside--done">
+                            <!-- Link khuc nay -->
+                            <a style="text-decoration: none;" href="../xem chi tiết/done7.html">
+                                <h5>IT SUPPORT EXECUTIVE</h5>
+                            </a>
+                            <button class="coffeecareers__app__body__container__icon--line--inside" data-toggle="collapse" href="#inside-Fifth">
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="coffeecareers__app__body__container__first__block--line--inside">
+                        <div class="city">
+                            <div class="city--inside">
+                                <p class="city--inside--done">
+                                    <span class="icon--local">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </span>
+                                    <div class="city__name">Thành phố Hồ Chí Minh</div>
+                                </p>
+                                <span class="city__icon--cropdown">
+                                    <i class="fas fa-sort-down"></i>
+                                </span>
+                            </div>
+                            <ul class="city--inside--dropdown">
+                                <li class="dropdown--text">Thành phố Hồ Chí Minh</li>
+                            </ul>
+                        </div>
+                        <p class="city--inside--person">
+                            <span class="person">
+                                <i class="fas fa-user-friends"></i>
+                                <div style="margin-left: 1%;"></div>
+                                <p class="block-style" style="margin-top: 3px;">Khối văn phòng</p>
+                            </span>
+                        </p>
+                    </div>
+                    <div id="inside-Fifth" class="coffeecareers__app__body__container__second__block--line--inside collapse">
+                        <div class="row">
+                            <div class="row__column--top">
+                                <div class="row__column--top--text">
+                                    <p>Mức lương</p>
+                                    <h6>Thỏa thuận</h6>
+                                </div>
+                            </div>
+                            <div class="row__column--top">
+                                <div class="row__column--top--text">
+                                    <p>Hình thức</p>
+                                    <h6>Làm theo giờ hành chính</h6>
+                                </div>
+                            </div>
+                            <div class="row__column--top">
+                                <div class="row__column--top--text">
+                                    <div class="row__column--top--text">
+                                        <p>Hạn nộp hồ sơ</p>
+                                        <h6>08/11/2021</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row__column--bottom">
+                                <div class="row__column--top--text">
+                                    <div class="row__column--top--text">
+                                        <p>Phòng ban</p>
+                                        <h6>IoT Support North</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row__button">
+                            <!--thêm action vào khúc này-->
+                            <form>
+                                <a href="./xem chi tiết/done7.html">
+                                    <button class="row__button--inside--fade"> Xem chi tiết </button>
+                                </a>
+                            </form>
+                            <form>
+                                <button class="row__button--inside"> Ứng tuyển </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- CATEGORY LEAD -->
+                <div style="color: #333; margin-top: 30px;">
+                    <div>
+                        <div class="coffeecareers__app__body__container--line--inside--done">
+                            <!-- Link khuc nay -->
+                            <a style="text-decoration: none;" href="../xem chi tiết/done8.html">
+                                <h5>CATEGORY LEAD</h5>
+                            </a>
+                            <button class="coffeecareers__app__body__container__icon--line--inside" data-toggle="collapse" href="#inside-Seventh">
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="coffeecareers__app__body__container__first__block--line--inside">
+                        <div class="city">
+                            <div class="city--inside">
+                                <p class="city--inside--done">
+                                    <span class="icon--local">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </span>
+                                    <div class="city__name">Thành phố Hồ Chí Minh</div>
+                                </p>
+                                <span class="city__icon--cropdown">
+                                    <i class="fas fa-sort-down"></i>
+                                </span>
+                            </div>
+                            <ul class="city--inside--dropdown">
+                                <li class="dropdown--text">Thành phố Hồ Chí Minh</li>
+                            </ul>
+                        </div>
+                        <p class="city--inside--person">
+                            <span class="person">
+                                <i class="fas fa-user-friends"></i>
+                                <div style="margin-left: 1%;"></div>
+                                <p class="block-style" style="margin-top: 3px;">Khối văn phòng</p>
+                            </span>
+                        </p>
+                    </div>
+                    <div id="inside-Seventh" class="coffeecareers__app__body__container__second__block--line--inside collapse">
+                        <div class="row">
+                            <div class="row__column--top">
+                                <div class="row__column--top--text">
+                                    <p>Mức lương</p>
+                                    <h6>Thương Lượng</h6>
+                                </div>
+                            </div>
+                            <div class="row__column--top">
+                                <div class="row__column--top--text">
+                                    <p>Hình thức</p>
+                                    <h6>Làm theo giờ hành chính</h6>
+                                </div>
+                            </div>
+                            <div class="row__column--top">
+                                <div class="row__column--top--text">
+                                    <div class="row__column--top--text">
+                                        <p>Hạn nộp hồ sơ</p>
+                                        <h6>12/08/2021</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row__column--bottom">
+                                <div class="row__column--top--text">
+                                    <div class="row__column--top--text">
+                                        <p>Phòng ban</p>
+                                        <h6>Commercial</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row__button">
+                            <!--thêm action vào khúc này-->
+                            <form>
+                                <a href="./xem chi tiết/done8.html">
+                                    <button class="row__button--inside--fade"> Xem chi tiết </button>
+                                </a>
+                            </form>
+                            <form>
+                                <button class="row__button--inside"> Ứng tuyển </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- Social Media Supervisor -->
+                <div style="color: #333; margin-top: 30px;">
+                    <div>
+                        <div class="coffeecareers__app__body__container--line--inside--done">
+                            <!-- Link khuc nay -->
+                            <a style="text-decoration: none;" href="../xem chi tiết/done9.html">
+                                <h5>Social Media Supervisor</h5>
+                            </a>
+                            <button class="coffeecareers__app__body__container__icon--line--inside" data-toggle="collapse" href="#inside-Eighth">
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="coffeecareers__app__body__container__first__block--line--inside">
+                        <div class="city">
+                            <div class="city--inside">
+                                <p class="city--inside--done">
+                                    <span class="icon--local">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </span>
+                                    <div class="city__name">Thành phố Hồ Chí Minh</div>
+                                </p>
+                                <span class="city__icon--cropdown">
+                                    <i class="fas fa-sort-down"></i>
+                                </span>
+                            </div>
+                            <ul class="city--inside--dropdown">
+                                <li class="dropdown--text">Thành phố Hồ Chí Minh</li>
+                            </ul>
+                        </div>
+                        <p class="city--inside--person">
+                            <span class="person">
+                                <i class="fas fa-user-friends"></i>
+                                <div style="margin-left: 1%;"></div>
+                                <p class="block-style" style="margin-top: 3px;">Khối văn phòng</p>
+                            </span>
+                        </p>
+                    </div>
+                    <div id="inside-Eighth" class="coffeecareers__app__body__container__second__block--line--inside collapse">
+                        <div class="row">
+                            <div class="row__column--top">
+                                <div class="row__column--top--text">
+                                    <p>Mức lương</p>
+                                    <h6>16000000</h6>
+                                </div>
+                            </div>
+                            <div class="row__column--top">
+                                <div class="row__column--top--text">
+                                    <p>Hình thức</p>
+                                    <h6>Làm theo giờ hành chính</h6>
+                                </div>
+                            </div>
+                            <div class="row__column--top">
+                                <div class="row__column--top--text">
+                                    <div class="row__column--top--text">
+                                        <p>Hạn nộp hồ sơ</p>
+                                        <h6>22/11/2021</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row__column--bottom">
+                                <div class="row__column--top--text">
+                                    <div class="row__column--top--text">
+                                        <p>Phòng ban</p>
+                                        <h6>Marketing</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row__button">
+                            <!--thêm action vào khúc này-->
+                            <form>
+                                <a href="./xem chi tiết/done9.html">
+                                    <button class="row__button--inside--fade"> Xem chi tiết </button>
+                                </a>
+                            </form>
+                            <form>
+                                <button class="row__button--inside"> Ứng tuyển </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- INTERNAL CUSTOMER SERVICES EXECUTIVE -->
+                <div style="color: #333; margin-top: 30px;">
+                    <div>
+                        <div class="coffeecareers__app__body__container--line--inside--done">
+                            <!-- Link khuc nay -->
+                            <a style="text-decoration: none;" href="../xem chi tiết/done10.html">
+                                <h5>INTERNAL CUSTOMER SERVICES EXECUTIVE</h5>
+                            </a>
+                            <button class="coffeecareers__app__body__container__icon--line--inside" data-toggle="collapse" href="#inside-Ninth">
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="coffeecareers__app__body__container__first__block--line--inside">
+                        <div class="city">
+                            <div class="city--inside">
+                                <p class="city--inside--done">
+                                    <span class="icon--local">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </span>
+                                    <div class="city__name">Thành phố Hồ Chí Minh</div>
+                                </p>
+                                <span class="city__icon--cropdown">
+                                    <i class="fas fa-sort-down"></i>
+                                </span>
+                            </div>
+                            <ul class="city--inside--dropdown">
+                                <li class="dropdown--text">Thành phố Hồ Chí Minh</li>
+                            </ul>
+                        </div>
+                        <p class="city--inside--person">
+                            <span class="person">
+                                <i class="fas fa-user-friends"></i>
+                                <div style="margin-left: 1%;"></div>
+                                <p class="block-style" style="margin-top: 3px;">Khối văn phòng</p>
+                            </span>
+                        </p>
+                    </div>
+                    <div id="inside-Ninth" class="coffeecareers__app__body__container__second__block--line--inside collapse">
+                        <div class="row">
+                            <div class="row__column--top">
+                                <div class="row__column--top--text">
+                                    <p>Mức lương</p>
+                                    <h6>Thương Lượng</h6>
+                                </div>
+                            </div>
+                            <div class="row__column--top">
+                                <div class="row__column--top--text">
+                                    <p>Hình thức</p>
+                                    <h6>Làm theo giờ hành chính</h6>
+                                </div>
+                            </div>
+                            <div class="row__column--top">
+                                <div class="row__column--top--text">
+                                    <div class="row__column--top--text">
+                                        <p>Hạn nộp hồ sơ</p>
+                                        <h6>12/08/2021</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row__column--bottom">
+                                <div class="row__column--top--text">
+                                    <div class="row__column--top--text">
+                                        <p>Phòng ban</p>
+                                        <h6>Commercial</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row__button">
+                            <!--thêm action vào khúc này-->
+                            <form>
+                                <a href="./xem chi tiết/done10.html">
+                                    <button class="row__button--inside--fade"> Xem chi tiết </button>
+                                </a>
+                            </form>
+                            <form>
+                                <button class="row__button--inside"> Ứng tuyển </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>  
+    </div>
+    <br>
+    <div style="text-align:center; margin-bottom: 50px;margin-top: 43px;">
+      <span class="dot" onclick="currentSlide(1)">
+        <p>1</p>
+    </span> 
+      <span class="dot" onclick="currentSlide(2)">
+        <p>2</p>
+    </span> 
+    </div>
+        <!-- Footer -->
+        <footer>
+            <div class="footer--inside">
+                <img class="footer-logo" src="https://hr.thecoffeehouse.com/img/logo.bbe8ad9a.svg" alt>
+                <div class="footer__address">
+                    <p> 86 - 88 Cao Thang, Ward 4, District 3, Ho Chi Minh, Vietnam.<br> Head Office: 195/10E Dien Bien Phu, Ward 15, Binh Thanh District, Ho Chi Minh, Vietnam </p>
+                </div>
+                <div class="footer__icon">
+                    <span>
+                        <img src="https://hr.thecoffeehouse.com/img/phone.81008523.svg" alt>
+                    </span>
+                    <span>
+                        <img src="https://hr.thecoffeehouse.com/img/email.c477c34e.svg" alt>
+                    </span>
+                    <!-- Link khuc nay -->
+                    <a href="">
+                        <span style="margin-right: 0">
+                            <img src="https://hr.thecoffeehouse.com/img/facebook.8653ef57.svg" alt>
+                        </span>
+                    </a> 
+                </div>
+                <p class="footer--note">Copyright © 2020 The Coffee House. All rights reserved.</p>
+                <div class="footer--link">
+                    <a style="margin-right: 1.75rem;">Terms of Use</a>
+                    <a>Privacy Policy</a>
+                </div>
+            </div>
+        </footer>
+</body>
+<script>
+    var coll = document.getElementsByClassName("city--inside");
+    var i;
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+</script>
+<script>
+    var coll = document.getElementsByClassName("button__form--inside");
+    var i;
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+</script>
+<!-- Menu Mobile -->
+<script>
+    var coll = document.getElementsByClassName("coffee-header-collapse-button");
+    var i;
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+</script>
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+<script src="test.js"></script>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "vercel-tch-lastest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "landingpage2.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huynhluan491/Vercel-TCH-LASTEST.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huynhluan491/Vercel-TCH-LASTEST/issues"
+  },
+  "homepage": "https://github.com/huynhluan491/Vercel-TCH-LASTEST#readme"
+}
